@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{85783ED1-642C-46F4-A0F4-F13D5493919E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>OPERACIONES.My.MyApplication</StartupObject>
+    <RootNamespace>OPERACIONES</RootNamespace>
+    <AssemblyName>OPERACIONES</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>OPERACIONES.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>OPERACIONES.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="Npgsql, Version=4.0.7.0, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7, processorArchitecture=MSIL">
+      <HintPath>..\packages\Npgsql.4.0.7\lib\net45\Npgsql.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.4.0\lib\netstandard1.1\System.Buffers.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.3\lib\netstandard1.1\System.Memory.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.4.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.4.5.2\lib\netstandard1.0\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.2\lib\portable-net45+win8+wp8+wpa81\System.Threading.Tasks.Extensions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\netstandard1.0\System.ValueTuple.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Funciones\Config\ConexGesman.vb" />
+    <Compile Include="Funciones\Config\ConexGpemsac.vb" />
+    <Compile Include="Funciones\Config\ConexOdoo.vb" />
+    <Compile Include="Funciones\Ghu\fnGhuMarcaciones.vb" />
+    <Compile Include="Funciones\Ghu\fnGhuPersonal.vb" />
+    <Compile Include="Funciones\Man\fnManActividades.vb" />
+    <Compile Include="Funciones\Man\fnManComponentes.vb" />
+    <Compile Include="Funciones\Man\fnManMonitoreos.vb" />
+    <Compile Include="Funciones\Man\fnManMovimientos.vb" />
+    <Compile Include="Funciones\Man\fnManOts.vb" />
+    <Compile Include="Funciones\Config\modFuncionesGenerales.vb" />
+    <Compile Include="Funciones\Man\FnManProductos.vb" />
+    <Compile Include="Funciones\Odoo\fnOdooConsultas.vb" />
+    <Compile Include="Funciones\Ope\FnOpeTareos.vb" />
+    <Compile Include="Funciones\Patio\fnPatioOts.vb" />
+    <Compile Include="Funciones\Patio\fnPatioTareos.vb" />
+    <Compile Include="Logica\Ghu\clsGhuMarcaciones.vb" />
+    <Compile Include="Logica\Ghu\clsGhuPersonal.vb" />
+    <Compile Include="Logica\Ghu\programacion.vb" />
+    <Compile Include="Logica\Man\clsManComponentes.vb" />
+    <Compile Include="Logica\Man\clsManMonitoreos.vb" />
+    <Compile Include="Logica\Man\clsManMovimientos.vb" />
+    <Compile Include="Logica\Man\clsManOts.vb" />
+    <Compile Include="Logica\Man\Ordenes.vb" />
+    <Compile Include="Logica\Man\Productos.vb" />
+    <Compile Include="Logica\Man\Tareos.vb" />
+    <Compile Include="Logica\Patio\clsPatioTareos.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Presentacion\ghu\frmGhuMarcaciones.Designer.vb">
+      <DependentUpon>frmGhuMarcaciones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\ghu\frmGhuMarcaciones.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\ghu\frmGhuOpcionesDeMarcado.Designer.vb">
+      <DependentUpon>frmGhuOpcionesDeMarcado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\ghu\frmGhuOpcionesDeMarcado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Man\frmManAgregarSeguimiento.Designer.vb">
+      <DependentUpon>frmManAgregarSeguimiento.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Man\frmManAgregarSeguimiento.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Man\frmManBajaComponente.Designer.vb">
+      <DependentUpon>frmManBajaComponente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Man\frmManBajaComponente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Man\frmManBuscarComponentes.Designer.vb">
+      <DependentUpon>frmManBuscarComponentes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Man\frmManBuscarComponentes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Man\frmManCorregirMonitoreo.Designer.vb">
+      <DependentUpon>frmManCorregirMonitoreo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Man\frmManCorregirMonitoreo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Man\frmManDesmontarComponente.Designer.vb">
+      <DependentUpon>frmManDesmontarComponente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Man\frmManDesmontarComponente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Man\frmManMontarComponente.Designer.vb">
+      <DependentUpon>frmManMontarComponente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Man\frmManMontarComponente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Man\frmManRepararComponente.Designer.vb">
+      <DependentUpon>frmManRepararComponente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Man\frmManRepararComponente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\mdiPrincipal.Designer.vb">
+      <DependentUpon>mdiPrincipal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\mdiPrincipal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Man\frmManMisOts.Designer.vb">
+      <DependentUpon>frmManMisOts.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Man\frmManMisOts.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Ope\frmOpeListarOts.Designer.vb">
+      <DependentUpon>frmOpeListarOts.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Ope\frmOpeListarOts.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Patio\frmPatioActualizarOt.Designer.vb">
+      <DependentUpon>frmPatioActualizarOt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Patio\frmPatioActualizarOt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Patio\frmPatioMisTareos.Designer.vb">
+      <DependentUpon>frmPatioMisTareos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Patio\frmPatioMisTareos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Patio\frmPatioRegistrarTareo.Designer.vb">
+      <DependentUpon>frmPatioRegistrarTareo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Patio\frmPatioRegistrarTareo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Patio\frmPatioTecnicosXOt.Designer.vb">
+      <DependentUpon>frmPatioTecnicosXOt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Patio\frmPatioTecnicosXOt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\ghu\frmGhuMarcaciones.resx">
+      <DependentUpon>frmGhuMarcaciones.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\ghu\frmGhuOpcionesDeMarcado.resx">
+      <DependentUpon>frmGhuOpcionesDeMarcado.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Man\frmManAgregarSeguimiento.resx">
+      <DependentUpon>frmManAgregarSeguimiento.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Man\frmManBajaComponente.resx">
+      <DependentUpon>frmManBajaComponente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Man\frmManBuscarComponentes.resx">
+      <DependentUpon>frmManBuscarComponentes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Man\frmManCorregirMonitoreo.resx">
+      <DependentUpon>frmManCorregirMonitoreo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Man\frmManDesmontarComponente.resx">
+      <DependentUpon>frmManDesmontarComponente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Man\frmManMontarComponente.resx">
+      <DependentUpon>frmManMontarComponente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Man\frmManRepararComponente.resx">
+      <DependentUpon>frmManRepararComponente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\mdiPrincipal.resx">
+      <DependentUpon>mdiPrincipal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Man\frmManMisOts.resx">
+      <DependentUpon>frmManMisOts.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Ope\frmOpeListarOts.resx">
+      <DependentUpon>frmOpeListarOts.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Patio\frmPatioActualizarOt.resx">
+      <DependentUpon>frmPatioActualizarOt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Patio\frmPatioMisTareos.resx">
+      <DependentUpon>frmPatioMisTareos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Patio\frmPatioRegistrarTareo.resx">
+      <DependentUpon>frmPatioRegistrarTareo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Patio\frmPatioTecnicosXOt.resx">
+      <DependentUpon>frmPatioTecnicosXOt.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\default_user.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Img\default_user.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

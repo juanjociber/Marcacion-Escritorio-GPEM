@@ -1,0 +1,12 @@
+2021-05-31: Versión 2.6.0
+	- Permitir edición de kilometrajes en los movimientos de componentes y seguimiento de componentes.
+	- Permitir agregar varias observaciones del tipo LEVE y GRAVE. Solo es requisito que el componente este [2]ACTIVO y montado en el bus [1]NO_DISPONIBLE.
+
+2021-09-27: Versión 2.6.1
+	- Actualización de estados de todas las tablas GESMAN. Ahora se considera 0 como UNKNOWN Y 1 Como ANULADO.
+
+2021-10-11: Versión 2.6.2
+	- Agregar tab productos para consulta de los productos de la actividad
+
+2021-10-25: Version 2.6.3
+	- Se corrigió error al momento de cerrar un tareo. Al hacer doble click sobre el registro de un Tareo abierto no mostraba la ventana para cerrar el Tareo (Caso Roger Aquino).
