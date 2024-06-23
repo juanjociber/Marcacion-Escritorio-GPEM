@@ -98,11 +98,10 @@ Partial Class frmGhuMarcaciones
         Me.TableLayoutPanel1.Controls.Add(Me.TableLayoutPanel13, 1, 0)
         Me.TableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TableLayoutPanel1.Location = New System.Drawing.Point(0, 0)
-        Me.TableLayoutPanel1.Margin = New System.Windows.Forms.Padding(4)
         Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
         Me.TableLayoutPanel1.RowCount = 1
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel1.Size = New System.Drawing.Size(979, 506)
+        Me.TableLayoutPanel1.Size = New System.Drawing.Size(734, 411)
         Me.TableLayoutPanel1.TabIndex = 0
         '
         'TableLayoutPanel2
@@ -112,24 +111,21 @@ Partial Class frmGhuMarcaciones
         Me.TableLayoutPanel2.Controls.Add(Me.GroupBox1, 0, 1)
         Me.TableLayoutPanel2.Controls.Add(Me.GroupBox2, 0, 0)
         Me.TableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel2.Location = New System.Drawing.Point(4, 4)
-        Me.TableLayoutPanel2.Margin = New System.Windows.Forms.Padding(4)
+        Me.TableLayoutPanel2.Location = New System.Drawing.Point(3, 3)
         Me.TableLayoutPanel2.Name = "TableLayoutPanel2"
         Me.TableLayoutPanel2.RowCount = 2
         Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 62.0!))
         Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 38.0!))
-        Me.TableLayoutPanel2.Size = New System.Drawing.Size(726, 498)
+        Me.TableLayoutPanel2.Size = New System.Drawing.Size(544, 405)
         Me.TableLayoutPanel2.TabIndex = 0
         '
         'GroupBox1
         '
         Me.GroupBox1.Controls.Add(Me.TableLayoutPanel3)
         Me.GroupBox1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.GroupBox1.Location = New System.Drawing.Point(4, 312)
-        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox1.Location = New System.Drawing.Point(3, 254)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox1.Size = New System.Drawing.Size(718, 182)
+        Me.GroupBox1.Size = New System.Drawing.Size(538, 148)
         Me.GroupBox1.TabIndex = 0
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Último registro"
@@ -141,44 +137,41 @@ Partial Class frmGhuMarcaciones
         Me.TableLayoutPanel3.Controls.Add(Me.TableLayoutPanel4, 0, 0)
         Me.TableLayoutPanel3.Controls.Add(Me.TableLayoutPanel5, 0, 1)
         Me.TableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel3.Location = New System.Drawing.Point(4, 19)
-        Me.TableLayoutPanel3.Margin = New System.Windows.Forms.Padding(4)
+        Me.TableLayoutPanel3.Location = New System.Drawing.Point(3, 16)
         Me.TableLayoutPanel3.Name = "TableLayoutPanel3"
         Me.TableLayoutPanel3.RowCount = 2
         Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 40.0!))
         Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 60.0!))
-        Me.TableLayoutPanel3.Size = New System.Drawing.Size(710, 159)
+        Me.TableLayoutPanel3.Size = New System.Drawing.Size(532, 129)
         Me.TableLayoutPanel3.TabIndex = 0
         '
         'TableLayoutPanel4
         '
         Me.TableLayoutPanel4.ColumnCount = 5
-        Me.TableLayoutPanel4.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 107.0!))
-        Me.TableLayoutPanel4.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 160.0!))
-        Me.TableLayoutPanel4.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
+        Me.TableLayoutPanel4.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 80.0!))
         Me.TableLayoutPanel4.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 120.0!))
-        Me.TableLayoutPanel4.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 227.0!))
+        Me.TableLayoutPanel4.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
+        Me.TableLayoutPanel4.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 90.0!))
+        Me.TableLayoutPanel4.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 170.0!))
         Me.TableLayoutPanel4.Controls.Add(Me.lblFechaMarcacion, 0, 0)
         Me.TableLayoutPanel4.Controls.Add(Me.Label8, 0, 0)
         Me.TableLayoutPanel4.Controls.Add(Me.Label9, 3, 0)
         Me.TableLayoutPanel4.Controls.Add(Me.lblHorarioMarcacion, 4, 0)
         Me.TableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel4.Location = New System.Drawing.Point(4, 4)
-        Me.TableLayoutPanel4.Margin = New System.Windows.Forms.Padding(4)
+        Me.TableLayoutPanel4.Location = New System.Drawing.Point(3, 3)
         Me.TableLayoutPanel4.Name = "TableLayoutPanel4"
         Me.TableLayoutPanel4.RowCount = 1
         Me.TableLayoutPanel4.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel4.Size = New System.Drawing.Size(702, 55)
+        Me.TableLayoutPanel4.Size = New System.Drawing.Size(526, 45)
         Me.TableLayoutPanel4.TabIndex = 0
         '
         'lblFechaMarcacion
         '
         Me.lblFechaMarcacion.Dock = System.Windows.Forms.DockStyle.Fill
         Me.lblFechaMarcacion.Font = New System.Drawing.Font("Arial Narrow", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblFechaMarcacion.Location = New System.Drawing.Point(111, 0)
-        Me.lblFechaMarcacion.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lblFechaMarcacion.Location = New System.Drawing.Point(83, 0)
         Me.lblFechaMarcacion.Name = "lblFechaMarcacion"
-        Me.lblFechaMarcacion.Size = New System.Drawing.Size(152, 55)
+        Me.lblFechaMarcacion.Size = New System.Drawing.Size(114, 45)
         Me.lblFechaMarcacion.TabIndex = 21
         Me.lblFechaMarcacion.Text = "-*-"
         Me.lblFechaMarcacion.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -187,10 +180,9 @@ Partial Class frmGhuMarcaciones
         '
         Me.Label8.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label8.Font = New System.Drawing.Font("Arial Narrow", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(4, 0)
-        Me.Label8.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label8.Location = New System.Drawing.Point(3, 0)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(99, 55)
+        Me.Label8.Size = New System.Drawing.Size(74, 45)
         Me.Label8.TabIndex = 20
         Me.Label8.Text = "FECHA:"
         Me.Label8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -199,10 +191,9 @@ Partial Class frmGhuMarcaciones
         '
         Me.Label9.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label9.Font = New System.Drawing.Font("Arial Narrow", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.Location = New System.Drawing.Point(359, 0)
-        Me.Label9.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label9.Location = New System.Drawing.Point(269, 0)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(112, 55)
+        Me.Label9.Size = New System.Drawing.Size(84, 45)
         Me.Label9.TabIndex = 22
         Me.Label9.Text = "HORARIO:"
         Me.Label9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -211,10 +202,9 @@ Partial Class frmGhuMarcaciones
         '
         Me.lblHorarioMarcacion.Dock = System.Windows.Forms.DockStyle.Fill
         Me.lblHorarioMarcacion.Font = New System.Drawing.Font("Arial Narrow", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblHorarioMarcacion.Location = New System.Drawing.Point(479, 0)
-        Me.lblHorarioMarcacion.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lblHorarioMarcacion.Location = New System.Drawing.Point(359, 0)
         Me.lblHorarioMarcacion.Name = "lblHorarioMarcacion"
-        Me.lblHorarioMarcacion.Size = New System.Drawing.Size(219, 55)
+        Me.lblHorarioMarcacion.Size = New System.Drawing.Size(164, 45)
         Me.lblHorarioMarcacion.TabIndex = 23
         Me.lblHorarioMarcacion.Text = "-*-"
         Me.lblHorarioMarcacion.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -234,12 +224,11 @@ Partial Class frmGhuMarcaciones
         Me.TableLayoutPanel5.Controls.Add(Me.lblSalidaRefrigerio, 4, 0)
         Me.TableLayoutPanel5.Controls.Add(Me.lblSalidaLabores, 6, 0)
         Me.TableLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel5.Location = New System.Drawing.Point(4, 67)
-        Me.TableLayoutPanel5.Margin = New System.Windows.Forms.Padding(4)
+        Me.TableLayoutPanel5.Location = New System.Drawing.Point(3, 54)
         Me.TableLayoutPanel5.Name = "TableLayoutPanel5"
         Me.TableLayoutPanel5.RowCount = 1
         Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel5.Size = New System.Drawing.Size(702, 88)
+        Me.TableLayoutPanel5.Size = New System.Drawing.Size(526, 72)
         Me.TableLayoutPanel5.TabIndex = 1
         '
         'lblIngresoLabores
@@ -249,10 +238,9 @@ Partial Class frmGhuMarcaciones
         Me.lblIngresoLabores.Dock = System.Windows.Forms.DockStyle.Fill
         Me.lblIngresoLabores.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblIngresoLabores.ForeColor = System.Drawing.Color.White
-        Me.lblIngresoLabores.Location = New System.Drawing.Point(4, 0)
-        Me.lblIngresoLabores.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lblIngresoLabores.Location = New System.Drawing.Point(3, 0)
         Me.lblIngresoLabores.Name = "lblIngresoLabores"
-        Me.lblIngresoLabores.Size = New System.Drawing.Size(139, 88)
+        Me.lblIngresoLabores.Size = New System.Drawing.Size(104, 72)
         Me.lblIngresoLabores.TabIndex = 14
         Me.lblIngresoLabores.Text = "INGRESO LABORES"
         Me.lblIngresoLabores.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -265,10 +253,9 @@ Partial Class frmGhuMarcaciones
         Me.lblIngresoRefrigerio.Dock = System.Windows.Forms.DockStyle.Fill
         Me.lblIngresoRefrigerio.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblIngresoRefrigerio.ForeColor = System.Drawing.Color.White
-        Me.lblIngresoRefrigerio.Location = New System.Drawing.Point(193, 0)
-        Me.lblIngresoRefrigerio.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lblIngresoRefrigerio.Location = New System.Drawing.Point(144, 0)
         Me.lblIngresoRefrigerio.Name = "lblIngresoRefrigerio"
-        Me.lblIngresoRefrigerio.Size = New System.Drawing.Size(132, 88)
+        Me.lblIngresoRefrigerio.Size = New System.Drawing.Size(99, 72)
         Me.lblIngresoRefrigerio.TabIndex = 16
         Me.lblIngresoRefrigerio.Text = "INGRESO REFRIGERIO"
         Me.lblIngresoRefrigerio.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -281,10 +268,9 @@ Partial Class frmGhuMarcaciones
         Me.lblSalidaRefrigerio.Dock = System.Windows.Forms.DockStyle.Fill
         Me.lblSalidaRefrigerio.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblSalidaRefrigerio.ForeColor = System.Drawing.Color.White
-        Me.lblSalidaRefrigerio.Location = New System.Drawing.Point(375, 0)
-        Me.lblSalidaRefrigerio.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lblSalidaRefrigerio.Location = New System.Drawing.Point(280, 0)
         Me.lblSalidaRefrigerio.Name = "lblSalidaRefrigerio"
-        Me.lblSalidaRefrigerio.Size = New System.Drawing.Size(132, 88)
+        Me.lblSalidaRefrigerio.Size = New System.Drawing.Size(99, 72)
         Me.lblSalidaRefrigerio.TabIndex = 17
         Me.lblSalidaRefrigerio.Text = "SALIDA REFRIGERIO"
         Me.lblSalidaRefrigerio.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -297,10 +283,9 @@ Partial Class frmGhuMarcaciones
         Me.lblSalidaLabores.Dock = System.Windows.Forms.DockStyle.Fill
         Me.lblSalidaLabores.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblSalidaLabores.ForeColor = System.Drawing.Color.White
-        Me.lblSalidaLabores.Location = New System.Drawing.Point(557, 0)
-        Me.lblSalidaLabores.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lblSalidaLabores.Location = New System.Drawing.Point(416, 0)
         Me.lblSalidaLabores.Name = "lblSalidaLabores"
-        Me.lblSalidaLabores.Size = New System.Drawing.Size(141, 88)
+        Me.lblSalidaLabores.Size = New System.Drawing.Size(107, 72)
         Me.lblSalidaLabores.TabIndex = 18
         Me.lblSalidaLabores.Text = "SALIDA LABORES"
         Me.lblSalidaLabores.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -310,11 +295,9 @@ Partial Class frmGhuMarcaciones
         '
         Me.GroupBox2.Controls.Add(Me.TableLayoutPanel6)
         Me.GroupBox2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.GroupBox2.Location = New System.Drawing.Point(4, 4)
-        Me.GroupBox2.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox2.Location = New System.Drawing.Point(3, 3)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox2.Size = New System.Drawing.Size(718, 300)
+        Me.GroupBox2.Size = New System.Drawing.Size(538, 245)
         Me.GroupBox2.TabIndex = 1
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Información del usuario"
@@ -327,22 +310,20 @@ Partial Class frmGhuMarcaciones
         Me.TableLayoutPanel6.Controls.Add(Me.pbFoto, 0, 0)
         Me.TableLayoutPanel6.Controls.Add(Me.TableLayoutPanel7, 1, 0)
         Me.TableLayoutPanel6.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel6.Location = New System.Drawing.Point(4, 19)
-        Me.TableLayoutPanel6.Margin = New System.Windows.Forms.Padding(4)
+        Me.TableLayoutPanel6.Location = New System.Drawing.Point(3, 16)
         Me.TableLayoutPanel6.Name = "TableLayoutPanel6"
         Me.TableLayoutPanel6.RowCount = 1
         Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel6.Size = New System.Drawing.Size(710, 277)
+        Me.TableLayoutPanel6.Size = New System.Drawing.Size(532, 226)
         Me.TableLayoutPanel6.TabIndex = 0
         '
         'pbFoto
         '
         Me.pbFoto.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.pbFoto.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.pbFoto.Location = New System.Drawing.Point(4, 4)
-        Me.pbFoto.Margin = New System.Windows.Forms.Padding(4)
+        Me.pbFoto.Location = New System.Drawing.Point(3, 3)
         Me.pbFoto.Name = "pbFoto"
-        Me.pbFoto.Size = New System.Drawing.Size(240, 269)
+        Me.pbFoto.Size = New System.Drawing.Size(180, 220)
         Me.pbFoto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.pbFoto.TabIndex = 1
         Me.pbFoto.TabStop = False
@@ -357,8 +338,7 @@ Partial Class frmGhuMarcaciones
         Me.TableLayoutPanel7.Controls.Add(Me.TableLayoutPanel11, 0, 3)
         Me.TableLayoutPanel7.Controls.Add(Me.TableLayoutPanel12, 0, 4)
         Me.TableLayoutPanel7.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel7.Location = New System.Drawing.Point(252, 4)
-        Me.TableLayoutPanel7.Margin = New System.Windows.Forms.Padding(4)
+        Me.TableLayoutPanel7.Location = New System.Drawing.Point(189, 3)
         Me.TableLayoutPanel7.Name = "TableLayoutPanel7"
         Me.TableLayoutPanel7.RowCount = 5
         Me.TableLayoutPanel7.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
@@ -366,23 +346,22 @@ Partial Class frmGhuMarcaciones
         Me.TableLayoutPanel7.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
         Me.TableLayoutPanel7.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
         Me.TableLayoutPanel7.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
-        Me.TableLayoutPanel7.Size = New System.Drawing.Size(454, 269)
+        Me.TableLayoutPanel7.Size = New System.Drawing.Size(340, 220)
         Me.TableLayoutPanel7.TabIndex = 2
         '
         'TableLayoutPanel8
         '
         Me.TableLayoutPanel8.ColumnCount = 2
-        Me.TableLayoutPanel8.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 133.0!))
+        Me.TableLayoutPanel8.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 100.0!))
         Me.TableLayoutPanel8.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
         Me.TableLayoutPanel8.Controls.Add(Me.lblCodigo, 0, 0)
         Me.TableLayoutPanel8.Controls.Add(Me.Label1, 0, 0)
         Me.TableLayoutPanel8.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel8.Location = New System.Drawing.Point(4, 4)
-        Me.TableLayoutPanel8.Margin = New System.Windows.Forms.Padding(4)
+        Me.TableLayoutPanel8.Location = New System.Drawing.Point(3, 3)
         Me.TableLayoutPanel8.Name = "TableLayoutPanel8"
         Me.TableLayoutPanel8.RowCount = 1
         Me.TableLayoutPanel8.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel8.Size = New System.Drawing.Size(446, 45)
+        Me.TableLayoutPanel8.Size = New System.Drawing.Size(334, 38)
         Me.TableLayoutPanel8.TabIndex = 0
         '
         'lblCodigo
@@ -391,10 +370,9 @@ Partial Class frmGhuMarcaciones
         Me.lblCodigo.Dock = System.Windows.Forms.DockStyle.Fill
         Me.lblCodigo.Font = New System.Drawing.Font("Arial Narrow", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblCodigo.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.lblCodigo.Location = New System.Drawing.Point(137, 0)
-        Me.lblCodigo.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lblCodigo.Location = New System.Drawing.Point(103, 0)
         Me.lblCodigo.Name = "lblCodigo"
-        Me.lblCodigo.Size = New System.Drawing.Size(305, 45)
+        Me.lblCodigo.Size = New System.Drawing.Size(228, 38)
         Me.lblCodigo.TabIndex = 7
         Me.lblCodigo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
@@ -403,10 +381,9 @@ Partial Class frmGhuMarcaciones
         Me.Label1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label1.Font = New System.Drawing.Font("Arial Narrow", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.SystemColors.GrayText
-        Me.Label1.Location = New System.Drawing.Point(4, 0)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label1.Location = New System.Drawing.Point(3, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(125, 45)
+        Me.Label1.Size = New System.Drawing.Size(94, 38)
         Me.Label1.TabIndex = 2
         Me.Label1.Text = "Código:"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -414,17 +391,16 @@ Partial Class frmGhuMarcaciones
         'TableLayoutPanel9
         '
         Me.TableLayoutPanel9.ColumnCount = 2
-        Me.TableLayoutPanel9.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 133.0!))
+        Me.TableLayoutPanel9.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 100.0!))
         Me.TableLayoutPanel9.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
         Me.TableLayoutPanel9.Controls.Add(Me.lblNombres, 0, 0)
         Me.TableLayoutPanel9.Controls.Add(Me.Label2, 0, 0)
         Me.TableLayoutPanel9.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel9.Location = New System.Drawing.Point(4, 57)
-        Me.TableLayoutPanel9.Margin = New System.Windows.Forms.Padding(4)
+        Me.TableLayoutPanel9.Location = New System.Drawing.Point(3, 47)
         Me.TableLayoutPanel9.Name = "TableLayoutPanel9"
         Me.TableLayoutPanel9.RowCount = 1
         Me.TableLayoutPanel9.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel9.Size = New System.Drawing.Size(446, 45)
+        Me.TableLayoutPanel9.Size = New System.Drawing.Size(334, 38)
         Me.TableLayoutPanel9.TabIndex = 1
         '
         'lblNombres
@@ -433,10 +409,9 @@ Partial Class frmGhuMarcaciones
         Me.lblNombres.Dock = System.Windows.Forms.DockStyle.Fill
         Me.lblNombres.Font = New System.Drawing.Font("Arial Narrow", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblNombres.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.lblNombres.Location = New System.Drawing.Point(137, 0)
-        Me.lblNombres.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lblNombres.Location = New System.Drawing.Point(103, 0)
         Me.lblNombres.Name = "lblNombres"
-        Me.lblNombres.Size = New System.Drawing.Size(305, 45)
+        Me.lblNombres.Size = New System.Drawing.Size(228, 38)
         Me.lblNombres.TabIndex = 8
         Me.lblNombres.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
@@ -445,10 +420,9 @@ Partial Class frmGhuMarcaciones
         Me.Label2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label2.Font = New System.Drawing.Font("Arial Narrow", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.SystemColors.GrayText
-        Me.Label2.Location = New System.Drawing.Point(4, 0)
-        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label2.Location = New System.Drawing.Point(3, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(125, 45)
+        Me.Label2.Size = New System.Drawing.Size(94, 38)
         Me.Label2.TabIndex = 3
         Me.Label2.Text = "Nombres:"
         Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -456,17 +430,16 @@ Partial Class frmGhuMarcaciones
         'TableLayoutPanel10
         '
         Me.TableLayoutPanel10.ColumnCount = 2
-        Me.TableLayoutPanel10.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 133.0!))
+        Me.TableLayoutPanel10.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 100.0!))
         Me.TableLayoutPanel10.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
         Me.TableLayoutPanel10.Controls.Add(Me.lblApellidos, 0, 0)
         Me.TableLayoutPanel10.Controls.Add(Me.Label3, 0, 0)
         Me.TableLayoutPanel10.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel10.Location = New System.Drawing.Point(4, 110)
-        Me.TableLayoutPanel10.Margin = New System.Windows.Forms.Padding(4)
+        Me.TableLayoutPanel10.Location = New System.Drawing.Point(3, 91)
         Me.TableLayoutPanel10.Name = "TableLayoutPanel10"
         Me.TableLayoutPanel10.RowCount = 1
         Me.TableLayoutPanel10.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel10.Size = New System.Drawing.Size(446, 45)
+        Me.TableLayoutPanel10.Size = New System.Drawing.Size(334, 38)
         Me.TableLayoutPanel10.TabIndex = 2
         '
         'lblApellidos
@@ -475,10 +448,9 @@ Partial Class frmGhuMarcaciones
         Me.lblApellidos.Dock = System.Windows.Forms.DockStyle.Fill
         Me.lblApellidos.Font = New System.Drawing.Font("Arial Narrow", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblApellidos.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.lblApellidos.Location = New System.Drawing.Point(137, 0)
-        Me.lblApellidos.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lblApellidos.Location = New System.Drawing.Point(103, 0)
         Me.lblApellidos.Name = "lblApellidos"
-        Me.lblApellidos.Size = New System.Drawing.Size(305, 45)
+        Me.lblApellidos.Size = New System.Drawing.Size(228, 38)
         Me.lblApellidos.TabIndex = 9
         Me.lblApellidos.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
@@ -487,10 +459,9 @@ Partial Class frmGhuMarcaciones
         Me.Label3.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label3.Font = New System.Drawing.Font("Arial Narrow", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.SystemColors.GrayText
-        Me.Label3.Location = New System.Drawing.Point(4, 0)
-        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label3.Location = New System.Drawing.Point(3, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(125, 45)
+        Me.Label3.Size = New System.Drawing.Size(94, 38)
         Me.Label3.TabIndex = 4
         Me.Label3.Text = "Apellidos:"
         Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -498,17 +469,16 @@ Partial Class frmGhuMarcaciones
         'TableLayoutPanel11
         '
         Me.TableLayoutPanel11.ColumnCount = 2
-        Me.TableLayoutPanel11.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 133.0!))
+        Me.TableLayoutPanel11.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 100.0!))
         Me.TableLayoutPanel11.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
         Me.TableLayoutPanel11.Controls.Add(Me.lblDni, 0, 0)
         Me.TableLayoutPanel11.Controls.Add(Me.Label4, 0, 0)
         Me.TableLayoutPanel11.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel11.Location = New System.Drawing.Point(4, 163)
-        Me.TableLayoutPanel11.Margin = New System.Windows.Forms.Padding(4)
+        Me.TableLayoutPanel11.Location = New System.Drawing.Point(3, 135)
         Me.TableLayoutPanel11.Name = "TableLayoutPanel11"
         Me.TableLayoutPanel11.RowCount = 1
         Me.TableLayoutPanel11.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel11.Size = New System.Drawing.Size(446, 45)
+        Me.TableLayoutPanel11.Size = New System.Drawing.Size(334, 38)
         Me.TableLayoutPanel11.TabIndex = 3
         '
         'lblDni
@@ -517,10 +487,9 @@ Partial Class frmGhuMarcaciones
         Me.lblDni.Dock = System.Windows.Forms.DockStyle.Fill
         Me.lblDni.Font = New System.Drawing.Font("Arial Narrow", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblDni.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.lblDni.Location = New System.Drawing.Point(137, 0)
-        Me.lblDni.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lblDni.Location = New System.Drawing.Point(103, 0)
         Me.lblDni.Name = "lblDni"
-        Me.lblDni.Size = New System.Drawing.Size(305, 45)
+        Me.lblDni.Size = New System.Drawing.Size(228, 38)
         Me.lblDni.TabIndex = 10
         Me.lblDni.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
@@ -529,10 +498,9 @@ Partial Class frmGhuMarcaciones
         Me.Label4.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label4.Font = New System.Drawing.Font("Arial Narrow", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.SystemColors.GrayText
-        Me.Label4.Location = New System.Drawing.Point(4, 0)
-        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label4.Location = New System.Drawing.Point(3, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(125, 45)
+        Me.Label4.Size = New System.Drawing.Size(94, 38)
         Me.Label4.TabIndex = 5
         Me.Label4.Text = "DNI:"
         Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -540,17 +508,16 @@ Partial Class frmGhuMarcaciones
         'TableLayoutPanel12
         '
         Me.TableLayoutPanel12.ColumnCount = 2
-        Me.TableLayoutPanel12.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 133.0!))
+        Me.TableLayoutPanel12.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 100.0!))
         Me.TableLayoutPanel12.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
         Me.TableLayoutPanel12.Controls.Add(Me.lblCargo, 0, 0)
         Me.TableLayoutPanel12.Controls.Add(Me.Label5, 0, 0)
         Me.TableLayoutPanel12.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel12.Location = New System.Drawing.Point(4, 216)
-        Me.TableLayoutPanel12.Margin = New System.Windows.Forms.Padding(4)
+        Me.TableLayoutPanel12.Location = New System.Drawing.Point(3, 179)
         Me.TableLayoutPanel12.Name = "TableLayoutPanel12"
         Me.TableLayoutPanel12.RowCount = 1
         Me.TableLayoutPanel12.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel12.Size = New System.Drawing.Size(446, 49)
+        Me.TableLayoutPanel12.Size = New System.Drawing.Size(334, 38)
         Me.TableLayoutPanel12.TabIndex = 4
         '
         'lblCargo
@@ -559,10 +526,9 @@ Partial Class frmGhuMarcaciones
         Me.lblCargo.Dock = System.Windows.Forms.DockStyle.Fill
         Me.lblCargo.Font = New System.Drawing.Font("Arial Narrow", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblCargo.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.lblCargo.Location = New System.Drawing.Point(137, 0)
-        Me.lblCargo.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lblCargo.Location = New System.Drawing.Point(103, 0)
         Me.lblCargo.Name = "lblCargo"
-        Me.lblCargo.Size = New System.Drawing.Size(305, 49)
+        Me.lblCargo.Size = New System.Drawing.Size(228, 38)
         Me.lblCargo.TabIndex = 11
         Me.lblCargo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
@@ -571,10 +537,9 @@ Partial Class frmGhuMarcaciones
         Me.Label5.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label5.Font = New System.Drawing.Font("Arial Narrow", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.SystemColors.GrayText
-        Me.Label5.Location = New System.Drawing.Point(4, 0)
-        Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label5.Location = New System.Drawing.Point(3, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(125, 49)
+        Me.Label5.Size = New System.Drawing.Size(94, 38)
         Me.Label5.TabIndex = 6
         Me.Label5.Text = "Cargo:"
         Me.Label5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -586,24 +551,21 @@ Partial Class frmGhuMarcaciones
         Me.TableLayoutPanel13.Controls.Add(Me.GroupBox3, 0, 0)
         Me.TableLayoutPanel13.Controls.Add(Me.TableLayoutPanel15, 0, 1)
         Me.TableLayoutPanel13.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel13.Location = New System.Drawing.Point(738, 4)
-        Me.TableLayoutPanel13.Margin = New System.Windows.Forms.Padding(4)
+        Me.TableLayoutPanel13.Location = New System.Drawing.Point(553, 3)
         Me.TableLayoutPanel13.Name = "TableLayoutPanel13"
         Me.TableLayoutPanel13.RowCount = 2
         Me.TableLayoutPanel13.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 65.0!))
         Me.TableLayoutPanel13.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 35.0!))
-        Me.TableLayoutPanel13.Size = New System.Drawing.Size(237, 498)
+        Me.TableLayoutPanel13.Size = New System.Drawing.Size(178, 405)
         Me.TableLayoutPanel13.TabIndex = 1
         '
         'GroupBox3
         '
         Me.GroupBox3.Controls.Add(Me.TableLayoutPanel14)
         Me.GroupBox3.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.GroupBox3.Location = New System.Drawing.Point(4, 4)
-        Me.GroupBox3.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox3.Location = New System.Drawing.Point(3, 3)
         Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox3.Size = New System.Drawing.Size(229, 315)
+        Me.GroupBox3.Size = New System.Drawing.Size(172, 257)
         Me.GroupBox3.TabIndex = 0
         Me.GroupBox3.TabStop = False
         Me.GroupBox3.Text = "Opciones"
@@ -617,8 +579,7 @@ Partial Class frmGhuMarcaciones
         Me.TableLayoutPanel14.Controls.Add(Me.txtDni, 0, 1)
         Me.TableLayoutPanel14.Controls.Add(Me.btnAsistencia, 0, 3)
         Me.TableLayoutPanel14.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel14.Location = New System.Drawing.Point(4, 19)
-        Me.TableLayoutPanel14.Margin = New System.Windows.Forms.Padding(4)
+        Me.TableLayoutPanel14.Location = New System.Drawing.Point(3, 16)
         Me.TableLayoutPanel14.Name = "TableLayoutPanel14"
         Me.TableLayoutPanel14.RowCount = 6
         Me.TableLayoutPanel14.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.0!))
@@ -627,7 +588,7 @@ Partial Class frmGhuMarcaciones
         Me.TableLayoutPanel14.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 30.0!))
         Me.TableLayoutPanel14.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5.0!))
         Me.TableLayoutPanel14.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 30.0!))
-        Me.TableLayoutPanel14.Size = New System.Drawing.Size(221, 292)
+        Me.TableLayoutPanel14.Size = New System.Drawing.Size(166, 238)
         Me.TableLayoutPanel14.TabIndex = 0
         '
         'btnRefrigerio
@@ -638,10 +599,10 @@ Partial Class frmGhuMarcaciones
         Me.btnRefrigerio.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gold
         Me.btnRefrigerio.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnRefrigerio.ForeColor = System.Drawing.Color.White
-        Me.btnRefrigerio.Location = New System.Drawing.Point(4, 207)
-        Me.btnRefrigerio.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.btnRefrigerio.Location = New System.Drawing.Point(3, 167)
+        Me.btnRefrigerio.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.btnRefrigerio.Name = "btnRefrigerio"
-        Me.btnRefrigerio.Size = New System.Drawing.Size(213, 80)
+        Me.btnRefrigerio.Size = New System.Drawing.Size(160, 67)
         Me.btnRefrigerio.TabIndex = 13
         Me.btnRefrigerio.Text = "REFRIGERIO"
         Me.btnRefrigerio.UseVisualStyleBackColor = False
@@ -651,10 +612,9 @@ Partial Class frmGhuMarcaciones
         Me.Label6.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label6.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.Color.Red
-        Me.Label6.Location = New System.Drawing.Point(4, 0)
-        Me.Label6.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label6.Location = New System.Drawing.Point(3, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(213, 29)
+        Me.Label6.Size = New System.Drawing.Size(160, 23)
         Me.Label6.TabIndex = 10
         Me.Label6.Text = "N° DNI"
         Me.Label6.TextAlign = System.Drawing.ContentAlignment.BottomLeft
@@ -663,10 +623,9 @@ Partial Class frmGhuMarcaciones
         '
         Me.txtDni.Dock = System.Windows.Forms.DockStyle.Fill
         Me.txtDni.Font = New System.Drawing.Font("Arial", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtDni.Location = New System.Drawing.Point(4, 33)
-        Me.txtDni.Margin = New System.Windows.Forms.Padding(4)
+        Me.txtDni.Location = New System.Drawing.Point(3, 26)
         Me.txtDni.Name = "txtDni"
-        Me.txtDni.Size = New System.Drawing.Size(213, 42)
+        Me.txtDni.Size = New System.Drawing.Size(160, 35)
         Me.txtDni.TabIndex = 11
         '
         'btnAsistencia
@@ -675,10 +634,9 @@ Partial Class frmGhuMarcaciones
         Me.btnAsistencia.Dock = System.Windows.Forms.DockStyle.Fill
         Me.btnAsistencia.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnAsistencia.ForeColor = System.Drawing.SystemColors.Window
-        Me.btnAsistencia.Location = New System.Drawing.Point(4, 105)
-        Me.btnAsistencia.Margin = New System.Windows.Forms.Padding(4)
+        Me.btnAsistencia.Location = New System.Drawing.Point(3, 84)
         Me.btnAsistencia.Name = "btnAsistencia"
-        Me.btnAsistencia.Size = New System.Drawing.Size(213, 79)
+        Me.btnAsistencia.Size = New System.Drawing.Size(160, 65)
         Me.btnAsistencia.TabIndex = 12
         Me.btnAsistencia.Text = "ASISTENCIA"
         Me.btnAsistencia.UseVisualStyleBackColor = False
@@ -690,13 +648,12 @@ Partial Class frmGhuMarcaciones
         Me.TableLayoutPanel15.Controls.Add(Me.lblFechaSistema, 0, 1)
         Me.TableLayoutPanel15.Controls.Add(Me.lblHoraSistema, 0, 0)
         Me.TableLayoutPanel15.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel15.Location = New System.Drawing.Point(4, 327)
-        Me.TableLayoutPanel15.Margin = New System.Windows.Forms.Padding(4)
+        Me.TableLayoutPanel15.Location = New System.Drawing.Point(3, 266)
         Me.TableLayoutPanel15.Name = "TableLayoutPanel15"
         Me.TableLayoutPanel15.RowCount = 2
         Me.TableLayoutPanel15.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
         Me.TableLayoutPanel15.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.TableLayoutPanel15.Size = New System.Drawing.Size(229, 167)
+        Me.TableLayoutPanel15.Size = New System.Drawing.Size(172, 136)
         Me.TableLayoutPanel15.TabIndex = 1
         '
         'lblFechaSistema
@@ -704,10 +661,9 @@ Partial Class frmGhuMarcaciones
         Me.lblFechaSistema.Dock = System.Windows.Forms.DockStyle.Fill
         Me.lblFechaSistema.Font = New System.Drawing.Font("Arial Narrow", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblFechaSistema.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.lblFechaSistema.Location = New System.Drawing.Point(4, 83)
-        Me.lblFechaSistema.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lblFechaSistema.Location = New System.Drawing.Point(3, 68)
         Me.lblFechaSistema.Name = "lblFechaSistema"
-        Me.lblFechaSistema.Size = New System.Drawing.Size(221, 84)
+        Me.lblFechaSistema.Size = New System.Drawing.Size(166, 68)
         Me.lblFechaSistema.TabIndex = 12
         Me.lblFechaSistema.Text = "Fecha"
         Me.lblFechaSistema.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -717,10 +673,9 @@ Partial Class frmGhuMarcaciones
         Me.lblHoraSistema.Dock = System.Windows.Forms.DockStyle.Fill
         Me.lblHoraSistema.Font = New System.Drawing.Font("Arial Narrow", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblHoraSistema.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.lblHoraSistema.Location = New System.Drawing.Point(4, 0)
-        Me.lblHoraSistema.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lblHoraSistema.Location = New System.Drawing.Point(3, 0)
         Me.lblHoraSistema.Name = "lblHoraSistema"
-        Me.lblHoraSistema.Size = New System.Drawing.Size(221, 83)
+        Me.lblHoraSistema.Size = New System.Drawing.Size(166, 68)
         Me.lblHoraSistema.TabIndex = 11
         Me.lblHoraSistema.Text = "Hora"
         Me.lblHoraSistema.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -731,15 +686,14 @@ Partial Class frmGhuMarcaciones
         '
         'frmGhuMarcaciones
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(979, 506)
+        Me.ClientSize = New System.Drawing.Size(734, 411)
         Me.Controls.Add(Me.TableLayoutPanel1)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.MaximizeBox = False
         Me.MinimizeBox = False
-        Me.MinimumSize = New System.Drawing.Size(994, 542)
+        Me.MinimumSize = New System.Drawing.Size(750, 448)
         Me.Name = "frmGhuMarcaciones"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "CONTROL DE MARCACIONES"

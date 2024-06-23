@@ -77,7 +77,7 @@ Public Class frmGhuMarcaciones
                     ' Calcular el valor absoluto de la diferencia en minutos
                     Dim valor As Integer = CInt(diferenciaMinutos.Minutes)
 
-                    ' Verificar si el usuario intenta ingresar más de 5 minutos antes de su hora de ingreso
+                    ' Verifica si colaborador quiere ingresar 8 minutos antes de su hora de ingreso programada
                     If valor < -8 Then
                         Dim horas As String = programacionTiempo2.Programacion1.ToString("HH:mm:ss")
                         Dim fechaHoraActual As String = DateTime.Now.ToString("dd/MM/yyyy")
